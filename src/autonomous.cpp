@@ -13,6 +13,16 @@
  * will be stopped. Re-enabling the robot will restart the task, not re-start it
  * from where it left off.
  */
+
+void drive_straight (int straight_ticks, int speed) {
+    left_front_wheels.move_relative(straight_ticks, speed)   
+    left_center_wheels.move_relative(straight_ticks, speed)   
+    left_back_wheels.move_relative(straight_ticks, speed)   
+    right_front_wheels.move_relative(straight_ticks, speed)   
+    right_center_wheels.move_relative(straight_ticks, speed)   
+    right_back_wheels.move_relative(straight_ticks, speed)   
+}
+
 void autonomous() {
-    
+    drive_straight(1000, 100);
 }
