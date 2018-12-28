@@ -23,6 +23,7 @@ Note: if the repository is combined, all the commands calling the PROS-CLI shoul
 
 ## Customization
 
+When renaming motors, make sure to rename them and their ports in all the .cpp files in the /src directory and the /include/global.h file.
 **SECTION WILL BE EXPANDED SOON**
 
 ## Built With
