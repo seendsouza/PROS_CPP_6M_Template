@@ -6,7 +6,7 @@
 #define RIGHT_CENTER_WHEELS_PORT 5
 #define RIGHT_BACK_WHEELS_PORT 6
 #define LIFT_PORT 7
-#define AWNING_PORT 8
+#define CATAPULT_PORT 8
 
 extern pros::Motor left_front_wheels;
 extern pros::Motor left_center_wheels;
@@ -15,6 +15,6 @@ extern pros::Motor right_front_wheels;
 extern pros::Motor right_center_wheels;
 extern pros::Motor right_back_wheels;
 extern pros::Motor lift_motor;
-extern pros::Motor awning_motor;
+extern pros::Motor catapult_motor;
 extern pros::Controller master;
 #endif

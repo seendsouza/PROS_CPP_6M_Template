@@ -64,13 +64,13 @@ void auton() {
         autonomous();
    }
 }
-void awning() {
+void catapult() {
     if (master.get_digital(DIGITAL_L1)) {
-        awning_motor.move_velocity(200);
+        catapult_motor.move_velocity(200);
     } else if (master.get_digital(DIGITAL_L2)) {
-        awning_motor.move_velocity(-200);
+        catapult_motor.move_velocity(-200);
     } else {
-        awning_motor.move_velocity(0);
+        catapult_motor.move_velocity(0);
     }   
 }
 
@@ -80,7 +80,7 @@ void lift() {
     } else if (master.get_digital(DIGITAL_R2)) {
         lift_motor.move_velocity(-200);
     } else {
-        awning_motor.move_velocity(0);
+        catapult_motor.move_velocity(0);
     }   
 
 }
@@ -88,7 +88,7 @@ void lift() {
 void opcontrol() {
     while (true) {
         tank_drive();
-        awning();
+        catapult();
         lift();
         auton();
 		pros::delay(20);

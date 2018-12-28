@@ -8,5 +8,5 @@ pros::Motor right_front_wheels (RIGHT_FRONT_WHEELS_PORT, MOTOR_GEARSET_18, true)
 pros::Motor right_center_wheels (RIGHT_CENTER_WHEELS_PORT, MOTOR_GEARSET_18, true);
 pros::Motor right_back_wheels (RIGHT_BACK_WHEELS_PORT, MOTOR_GEARSET_18, true);
 pros::Motor lift_motor (LIFT_PORT, MOTOR_GEARSET_18);
-pros::Motor awning_motor (AWNING_PORT, MOTOR_GEARSET_18);
+pros::Motor catapult_motor (CATAPULT_PORT, MOTOR_GEARSET_18);
 pros::Controller master (CONTROLLER_MASTER);
