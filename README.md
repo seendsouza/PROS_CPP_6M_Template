@@ -1,6 +1,6 @@
 # PROS C++ 6 Motor Template V5
 
-Inspired by our RI3D code, I decided to make a template for the new VEX v5 system using 6 motors instead of the 4 in our RI3D. The 4 motor RI3D code can be found here (may be a bit worse from a programming perspective though):
+Inspired by our RI3D code, I decided to make a template for the new VEX v5 system using 6 motors in the drive instead of the 4 in our RI3D. The 4 motor drive RI3D code can be found here (may be a bit worse from a programming perspective though):
 * [2381C-V1](https://github.com/seendsouza/2381C-V1)
 
 ## Getting Started
