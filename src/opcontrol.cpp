@@ -80,7 +80,7 @@ void lift() {
     } else if (master.get_digital(DIGITAL_R2)) {
         lift_motor.move_velocity(-200);
     } else {
-        catapult_motor.move_velocity(0);
+        lift_motor.move_velocity(0);
     }   
 
 }
