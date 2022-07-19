@@ -1,5 +1,5 @@
-firmware/* linguist-vendored
-include/* linguist-vendored
+firmware/** linguist-vendored
+include/** linguist-vendored
 include/autonomous.h linguist-vendored=false
 include/global.h linguist-vendored=false
 include/main.h linguist-vendored=false
